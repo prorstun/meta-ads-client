@@ -1,0 +1,17 @@
+{
+  "name": "meta-ads-client",
+  "version": "1.0.0",
+  "description": "Client untuk mengelola kampanye iklan Meta (Facebook & Instagram) untuk toko online Shopee dan TikTok",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["meta", "ads", "facebook", "instagram", "shopee", "tiktok"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.0"
+  }
+}
