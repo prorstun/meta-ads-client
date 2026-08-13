@@ -6,6 +6,7 @@ const { createCampaign } = require('./lib/campaigns/createCampaign');
 const { createAdSet } = require('./lib/adsets/createAdSet');
 const { createAdCreative } = require('./lib/creatives/createAdCreative');
 const { getCampaignInsights } = require('./lib/insights/getInsights');
+const { createBatikCampaign, getFirstPage } = require('./lib/campaignBuilder');
 
 module.exports = {
   apiRequest,
@@ -13,5 +14,7 @@ module.exports = {
   createCampaign,
   createAdSet,
   createAdCreative,
-  getCampaignInsights
+  getCampaignInsights,
+  createBatikCampaign,
+  getFirstPage
 };
