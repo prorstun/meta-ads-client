@@ -4,7 +4,7 @@
   "description": "Client untuk mengelola kampanye iklan Meta (Facebook & Instagram) untuk toko online Shopee dan TikTok",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node lib/index.js",
     "test": "node --test test/*.test.js"
   },
   "keywords": ["meta", "ads", "facebook", "instagram", "shopee", "tiktok"],
